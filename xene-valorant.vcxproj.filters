@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="str_crypt.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal_engine.h">
+      <Filter>valorant</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>valorant</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="crt.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="uworld.h">
+      <Filter>valorant</Filter>
+    </ClInclude>
+    <ClInclude Include="valorant.h">
+      <Filter>valorant</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroInput.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroGUI.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>valorant</Filter>
+    </ClInclude>
+    <ClInclude Include="unlock_all.h">
+      <Filter>valorant</Filter>
+    </ClInclude>
+    <ClInclude Include="c_string.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="c_vector.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="c_alloc.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_defines.h">
+      <Filter>valorant</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="c_map.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="return_spoofer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="protection">
+      <UniqueIdentifier>{d12f4a7c-8750-4b93-a322-72a907e5dcd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="valorant">
+      <UniqueIdentifier>{8167ee3a-0021-407c-9cad-f175918af701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{b32e3ae5-c2e6-474b-905a-27ff0d36661d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asm">
+      <UniqueIdentifier>{079e14f9-5deb-4477-a18c-e2ee8faabf7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{59ec84aa-fffc-4aed-b2a1-df16f3b3d57a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="memory.asm">
+      <Filter>asm</Filter>
+    </MASM>
+    <MASM Include="bypass.asm">
+      <Filter>asm</Filter>
+    </MASM>
+    <MASM Include="return_spoofer.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+</Project>
